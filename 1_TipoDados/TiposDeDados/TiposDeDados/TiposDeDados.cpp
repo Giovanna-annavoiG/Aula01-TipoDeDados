@@ -9,7 +9,7 @@ int main()
 	cout << "Estrutura de Dados - Fatec" << endl;
 
 	cout << "Tipos Numericos\n";
-	cout << "===============\n";
+	cout << "Alterado por Gi\n";
 	int i = 10;
 	short s = 18;
 	long l = 200000;
@@ -45,8 +45,6 @@ int main()
 	cout << "O valor armazendo no local indicado pelo ponteiro e *ponteiro = \"" << *ponteiro << "\"";
 
 	cout << endl << endl;
-
-	cout << "Qualquer tecla para continuar...";
 	system("pause"); // somente no Windows
 	system("cls");
 
@@ -68,8 +66,27 @@ int main()
 	cout << "Sua idade em dias e: " << dias << endl;
 	cout << "Sua idade em horas e: " << horas << endl;
 	cout << "Sua idade em minutos e: " << minutos << endl;
+	system("pause"); // somente no Windows
+	system("cls");
 
-	cout << "Qualquer tecla para sair...";
+	cout << "Alteracao feita por Giovanna Cardim" << endl;
+	cout << "================" << endl;
+
+	char torcida;
+	torcida = 'S';
+	cout << "Voce torce para o corinthians S(sim) ou N(nao):  \n";
+	cin >> torcida;
+	if (torcida == 'S')
+	{
+		cout << "Parabens!!! Voce tem um bom gosto para time. \n";
+	}
+	else
+	{
+		cout << "Credo! Como assim você nao torce para o melhor time do mundo = Corinthians? MELHORE!!!!!!! \n";
+
+	}
+
+	cout << "\n Qualquer tecla para sair...";
 	system("pause"); // somente no Windows
 
 
